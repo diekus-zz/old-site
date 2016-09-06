@@ -1,11 +1,12 @@
 ﻿body
 {
-	background-color: #DCDCDC;
-	font-family: 'Raleway', sans-serif;
+	background-color: #f6f6f6;
+	font-family: 'Scope One', serif;
 	color: #383838;
 	/*background-image:url('../i/fnd.jpg');*/
 	background-position:center center;
 	background-attachment:fixed;
+	font-size: 1.4em;
 }
 
 .mainarea
@@ -41,11 +42,24 @@
 
 h1
 {
-	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 4em;
 }
 
 h2
 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 3em;
+	color:#0088E7;
+}
+
+h3
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 1.7
 }
 
 footer {
@@ -65,6 +79,8 @@ a:link, a:visited, a:active
 .profilepic{
 	display: block;
 	border-radius: 256px;
+	height: 120px;
+	width: 120px;
 }
 
 #socialmenu
