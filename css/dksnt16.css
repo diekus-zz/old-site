@@ -6,7 +6,8 @@
 	/*background-image:url('../i/fnd.jpg');*/
 	background-position:center center;
 	background-attachment:fixed;
-	font-size: 1.4em;
+	font-size: large;
+	line-height: 1.6em;
 }
 
 .mainarea
@@ -44,7 +45,7 @@ h1
 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 4em;
+	font-size: 3.3em;
 }
 
 h2
@@ -111,4 +112,8 @@ a:link, a:visited, a:active
 .presImgs{
 	width: 100px;
 	height: 100px;
+}
+
+.nothingOnSides{
+	clear:both;
 }
