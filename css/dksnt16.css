@@ -29,16 +29,19 @@
 
 .well
 {
-	background-color:rgba(255, 255, 255, 0.15);
+	background-color:rgba(255, 255, 255, 0.4);
 }
 
 .jumbotron
 {
-	background-color:rgba(255, 255, 255, 0.15);
+	background-color:rgba(255, 238, 178, 1.0);
 	margin-top: 10px;
-	background-image: url('../i/Dubai.png');
+	background-image: url('../i/bgNew.png');
 	background-position:top right;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
+	display: block;
+	border-radius: 80px;
+	border: 1px solid #bbbbbb;
 }
 
 h1
