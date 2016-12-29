@@ -1,0 +1,17 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "name": "diekus.net",
+  "description": "diekus' web space",
+  "short_name": "diekus.net",
+  "icons": [ {
+    "src": "images/icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0AA1F4",
+  "background_color": "#3D3D3D"
+}
