@@ -1,6 +1,9 @@
 html{
     background: #3D3D3D;
     color: #FFF;
+    background-image: url('/images/spattern.png');
+    background-repeat:repeat-x ;
+    background-attachment: fixed;
     
 }
 
@@ -49,8 +52,6 @@ a:hover{
     display: flex;
     flex-direction:row-reverse;
     padding: 2em;
-    background-image: url('/images/spattern.png');
-    background-repeat: repeat;
 
 }
 
