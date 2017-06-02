@@ -69,6 +69,11 @@ a:hover{
     align-content: flex-start;
 }
 
+.presImage{
+    margin: auto;
+    height: 100px;
+}
+
 .card{
     flex-grow: 1;
     flex-shrink: 1;
