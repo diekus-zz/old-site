@@ -9,8 +9,9 @@ html{
 
 body{
     font-family:'Samsung One'; 
-    margin:0px;
+    margin:auto;
     padding: 0px;
+    max-width: 80em;
 }
 
 main{
@@ -71,7 +72,8 @@ a:hover{
 
 .presImage{
     margin: auto;
-    height: 100px;
+    padding: .1em;
+    max-width: 20em;
 }
 
 .card{
