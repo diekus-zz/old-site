@@ -1,10 +1,10 @@
 html{
-    background: #3D3D3D;
-    color: #FFF;
-    background-image: url('/images/spattern.png');
-    background-repeat:repeat-x ;
+    background-color: #000;
+    background-repeat: repeat-x ;
     background-attachment: fixed;
-    
+    background-image: url('/images/bg1.jpg');
+    color: #fff;
+
 }
 
 body{
@@ -12,10 +12,16 @@ body{
     margin:auto;
     padding: 0px;
     max-width: 80em;
+    background-color: rgba(0, 0, 0, .6);
+    
 }
 
 main{
     padding: 2em;
+}
+
+img{
+    border-radius: 1em;
 }
 
 
@@ -23,6 +29,7 @@ h1{
     font-size: 2.5em;
     font-weight: 100;
     margin: 0px;
+    text-shadow: #3d3d3d;
     
 }
 
@@ -31,6 +38,7 @@ h2{
     font-weight: 100;
     border-bottom: solid 1px rgba(194, 194, 194, .2);
     color: #C2C2c2;
+    text-shadow: #3d3d3d;
 }
 
 h3{
@@ -40,12 +48,12 @@ h3{
 }
 
 a:link, a:visited, a:active{
-    color: #0AA1F4;
+    color: #0096FF;
     text-decoration: none;
 }
 
 a:hover{
-    color: #0AA1F4;
+    color: #0096FF;
     text-decoration: underline;
 }
 
@@ -68,6 +76,10 @@ a:hover{
     justify-content: space-between;
     align-items:center;
     align-content: flex-start;
+}
+
+.socialIcon{
+    border-radius: 0em;
 }
 
 .presImage{
@@ -94,14 +106,18 @@ a:hover{
 
 .cardTitle{
     top:0px;
+    margin-bottom: .5em;
     font-size: 1.5em;
 }
 
 .imgPost{
-    width: 20em;
-    margin:auto;
+    width: 15em;
+    height: 15em;
+    margin:1em;
     display: block;
-    padding: .5em;
+    border-radius:1em;
+    object-fit: cover;
+
 }
 
 .container{
@@ -118,12 +134,24 @@ a:hover{
     position: absolute;
     top:0px;
     right: 3em;
+    border-radius: 0px;
 }
 
 #siteFooter{
     display: flex;
     justify-content: center;
-    background-color: #0AA1F4;
+    background-color: #0096FF;
     padding: 2em;
     background-image: url('/images/spattern.png');
+}
+
+#featImage{
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+}
+
+.featuredCard{
+    width: 100%;
+
 }
