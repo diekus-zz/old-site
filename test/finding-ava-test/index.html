@@ -12,10 +12,12 @@
 <body>
     <a-scene>
         <a-assets>
-            <img id="bg" src="img/bg.jpg">
+            <img id="bg" src="imgs/bg.jpg">
+            <img id="ground" src="imgs/floor.jpg">
         </a-assets>
         <a-sky src="#bg"></a-sky>
+        <a-plane src="#ground" height="75" width="75" position="0 -3 0" rotation="-90 0 0"></a-plane>
     </a-scene>
-</body>
+    </body>
 
 </html>
