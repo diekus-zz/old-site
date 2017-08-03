@@ -1,0 +1,61 @@
+body{
+    font-family:'Samsung One'; 
+    margin:auto;
+    padding: 0px;
+    max-width: 80em;
+    background-color:#3D3D3D;
+    color:#FFF;
+    background-image: url('/images/bg.jpg');
+}
+
+main{
+    z-index: 100;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#virtualbg{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#headersection{
+    color:white;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 1em;
+    margin: auto;
+}
+
+#webvrsection{
+    color:white;
+    background-color: rgba(255, 0, 100, .8);
+    padding: 1em;
+    margin: auto;
+}
+
+#blogpostsection{
+    color:white;
+    background-color: rgba(0, 150, 255, .8);
+    padding: 1em;
+    margin: auto;
+}
+
+#presentationssection{
+    color:white;
+    background-color: rgba(90, 15, 200, .8);
+    padding: 1em;
+    margin: auto;
+}
+
+#socialLinks{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:center;
+    align-content: flex-start;
+}
