@@ -51,12 +51,16 @@ a:link, a:hover, a:visited, a:active{
 }
 
 #socialLinks{
-    display: flex;
-    flex-direction: row-reverse;
+    display: block;
+    /*flex-direction: row-reverse;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items:center;
-    align-content: flex-start;
+    align-content: flex-start; */
+}
+
+.socialIcon{
+    margin: .1em 1em .1em 1em;
 }
 
 #bg{
