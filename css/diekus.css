@@ -134,3 +134,8 @@ a:link, a:hover, a:visited, a:active{
 .pres{
     max-width: 20em;
 }
+
+.soon{
+    height: .8em;
+    vertical-align: middle;
+}
