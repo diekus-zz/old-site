@@ -2,13 +2,13 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="147.253" height="154.319" viewBox="0 0 147.25 154.32" enable-background="new 0 0 147.25 154.32" xml:space="preserve">
 	<g>
-		<path fill="#B6B6B6" fill-opacity="1" stroke-width="6" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" d="M 11,33.6086L 136.253,33.6086C 140.671,33.6086 144.253,37.1904 144.253,41.6086L 144.253,96.2349C 144.253,100.653 140.671,104.235 136.253,104.235L 11,104.235C 6.58179,104.235 3,100.653 3,96.2349L 3,41.6086C 3,37.1904 6.58179,33.6086 11,33.6086 Z "/>
-		<rect x="30.9958" y="71.4192" fill="#FFFFFF" fill-opacity="1" stroke-width="6" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" width="85.261" height="79.8997"/>
-		<path fill="#3D3D3D" fill-opacity="1" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" d="M 57.9863,111.489L 66.7009,114.935L 66.7009,124.885L 79.9207,120.163L 94.8562,126.069L 49.9421,142.985L 49.9421,130.51L 57.9863,127.619L 57.9863,111.489 Z "/>
-		<line fill="none" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" x1="77.9414" y1="80.6938" x2="97.3074" y2="80.6938"/>
-		<path fill="#7F7F7F" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 52.3936,100.847L 97.3076,118.956L 97.3076,106.95L 68.283,94.5625L 97.3074,85.7537L 97.3074,80.6938L 77.9414,80.6938L 78.4224,80.8516L 52.3936,89.0005L 52.3936,100.847 Z "/>
-		<rect x="26.5391" y="71.4753" fill="#5E5E5E" fill-opacity="1" stroke-width="6" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" width="94.168" height="9.21851"/>
-		<rect x="30.9216" y="3" fill="#FFFFFF" fill-opacity="1" stroke-width="6" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" width="85.261" height="30.6082"/>
-		<path fill="#00C800" fill-opacity="1" stroke-width="10" stroke-linejoin="round" stroke="#64FF00" stroke-opacity="1" d="M 24.2556,49.571C 25.3481,49.571 26.2339,50.457 26.2339,51.5496C 26.2339,52.6421 25.3481,53.5278 24.2556,53.5278C 23.1628,53.5278 22.2771,52.6421 22.2771,51.5496C 22.2771,50.457 23.1628,49.571 24.2556,49.571 Z "/>
+		<path fill="none" stroke-width="6" stroke-linejoin="round" stroke="#FFFFFF" stroke-opacity="1" d="M 11.0002,33.6086L 136.253,33.6086C 140.671,33.6086 144.253,37.1907 144.253,41.6086L 144.253,96.2351C 144.253,100.653 140.671,104.235 136.253,104.235L 11.0002,104.235C 6.58203,104.235 3.00024,100.653 3.00024,96.2351L 3.00024,41.6086C 3.00024,37.1907 6.58203,33.6086 11.0002,33.6086 Z "/>
+		<rect x="30.9961" y="71.4192" fill="#FFFFFF" fill-opacity="1" stroke-width="6" stroke-linejoin="round" stroke="#FFFFFF" stroke-opacity="1" width="85.261" height="79.8999"/>
+		<path fill="#3D3D3D" fill-opacity="1" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" d="M 57.9866,111.489L 66.7012,114.935L 66.7012,124.885L 79.9209,120.163L 94.8564,126.069L 49.9424,142.985L 49.9424,130.51L 57.9866,127.619L 57.9866,111.489 Z "/>
+		<line fill="none" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" x1="77.9417" y1="80.6941" x2="97.3076" y2="80.6941"/>
+		<path fill="#7F7F7F" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 52.3938,100.847L 97.3079,118.956L 97.3079,106.95L 68.2832,94.5627L 97.3076,85.7537L 97.3076,80.6941L 77.9417,80.6941L 78.4226,80.8518L 52.3938,89.0007L 52.3938,100.847 Z "/>
+		<rect x="26.5393" y="71.4753" fill="#FFFFFF" fill-opacity="1" stroke-width="6" stroke-linejoin="round" stroke="#FFFFFF" stroke-opacity="1" width="94.168" height="9.21875"/>
+		<rect x="30.9219" y="3.00024" fill="#FFFFFF" fill-opacity="1" stroke-width="6" stroke-linejoin="round" stroke="#FFFFFF" stroke-opacity="1" width="85.261" height="30.6079"/>
+		<path fill="#00C800" fill-opacity="1" stroke-width="10" stroke-linejoin="round" stroke="#64FF00" stroke-opacity="1" d="M 24.2559,49.571C 25.3484,49.571 26.2341,50.4573 26.2341,51.5496C 26.2341,52.6423 25.3484,53.5281 24.2559,53.5281C 23.1631,53.5281 22.2773,52.6423 22.2773,51.5496C 22.2773,50.4573 23.1631,49.571 24.2559,49.571 Z "/>
 	</g>
 </svg>
