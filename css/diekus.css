@@ -52,11 +52,6 @@ a:link, a:hover, a:visited, a:active{
 
 #socialLinks{
     display: block;
-    /*flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items:center;
-    align-content: flex-start; */
 }
 
 .socialIcon{
