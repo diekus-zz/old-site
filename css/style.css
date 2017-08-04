@@ -155,3 +155,7 @@ a:hover{
     width: 100%;
 
 }
+
+.pres{
+    max-width: 25em;
+}
