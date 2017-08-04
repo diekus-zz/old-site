@@ -12,16 +12,9 @@
         <script src="js/aframe.min.js"></script>
     </head>
     <body>
-        <div id="virtualbg">
-            <a-scene>
-                <a-assets>
-                    <img src="images/bg.jpg" id="bg">
-                </a-assets>
-                <a-sky src="#bg"></a-sky>
-            </a-scene>
-        </div>
-        <main>
-            <div id="headersection">
+
+        <div id="main">
+            <div id="headersection" class="tile">
                 <h1>diekus' web space</h1>
                 <nav id="socialLinks">
                     <a href="callto://luis.diego.gz/"><img src="/images/skypeLogo.svg" alt="Skype" class="socialIcon"></a>
@@ -32,20 +25,84 @@
                     <a href="https://twitter.com/diekus"><img src="/images/twitterLogo.svg" alt="twitter" class="socialIcon"></a>
                 </nav>
                 <p>Diego (diekus) Gonzalez-Zuniga. Web Advocate at <a href="https://samsunginter.net">Samsung Internet</a>. Immigrant from <a href="https://visitcostarica.com">Costa Rica</a>. Based in London. Gadget aficionado. Gamer.</p>
-            <div>
-            <div id="webvrsection">
+            </div>
+            <div id="webvrsection" class="tile">
                 <h2>#WebVR</h2>
                 <p> is the webvr seciton</p>
+            </div>  
+            <div id="blogpostsection" class="tile">
+                <h2>blog</h2>
+                <div class="card">
+                    <h3 class="cardTitle"><a href="https://medium.com/samsung-internet-dev/web-audio-on-different-platforms-67fc9ffc2c4e">Web Audio on different platforms</a></h3>
+                    <p>Taking a look at different behaviors of the Web Audio API.</p>
+                </div>
+                <div class="card">
+                    <h3 class="cardTitle"><a href="https://medium.com/samsung-internet-dev/unpacking-the-latest-samsung-internet-fb1eac41cb7a">Unpacking the latest Samsung Internet</a></h3>
+                    <p>Excited about UNPACKED 2017 and the Galaxy S8? So are we.</p>
+                </div>
+                <div class="card">
+                    <h3 class="cardTitle"><a href="https://medium.com/samsung-internet-dev/the-gamepad-reloaded-5ba866770003/">The Gamepad Reloaded</a></h3>
+                    <p>Revision of Gamepad API support in Samsung Internet Beta 5.4.</p>
+                </div>
+                <div class="card">
+                    <h3 class="cardTitle"><a href="https://medium.com/samsung-internet-dev/many-browsers-one-web-21730352afbc">many browsers, one web</a></h3>
+                    <p>Is there a need for another browser?</p>
+                </div>
             </div>
-            <div id="blogpostsection">
-                <h2>#blog</h2>
-                <h3>Web Audio on different platforms</h3>
-                <p>Taking a look at different behaviors of the Web Audio API.</p>
+            <div id="presentationssection" class="tile">
+                <h2>events</h2>
+                <h3>upcoming</h3>
+                <div class="card">
+                    <h3 class="cardTitle"><a href="https://www.meetup.com/js-monthly/events/242026825/">JS Montly</a></h3>
+                    <p><img src="images/flags/uk.gif" alt="UK"> London, UK. 22 August, 2017</p>
+                    <p>Will co-present a talk with <a href="https://twitter.com/uveavanto">Uve</a> titled "WebVR: Connecting people, pandas and you".</p>
+                </div>
+                <div class="card">
+                    <h3 class="cardTitle"><a href="http://www.frankenjs.org/">FrankenJS</a></h3>
+                    <p><img src="images/flags/de.gif" alt="DE"> Nurnberg, Germany. 4 September, 2017</p>
+                    <p>Presenting a talk on WebVR.</p>
+                </div>
+                <div class="card">
+                    <h3 class="cardTitle"><a href="">JS Montly</a></h3>
+                    <p><img src="images/flags/uk.gif" alt="UK"> London, UK. (TBD) September, 2017</p>
+                    <p>Will co-present a talk with <a href="https://twitter.com/poshaugnessy">Peter</a> about Progressive Web Apps.</p>
+                </div>
+                <div class="card">
+                    <h3 class="cardTitle"><a href="https://www.sdc2017.com/">Samsung Developer Conference</a></h3>
+                    <p><img src="images/flags/us.gif" alt="US"> San Francisco, USA. 18 October, 2017</p>
+                    <p>Team Samsung Internet will be rocking SDC with a PWA workshop! Stay Tuned.</p>
+                </div>
+
+                <h3>past (<a href="presentations.html">see all...</a>)</h3>
+                <div class="card">
+                    <h3 class="cardTitle"><a href="http://www.vrukfest.co.uk/speakers-2/">VRUK Festival</a></h3>
+                    <p><img src="images/flags/uk.gif" alt="UK"> London, UK. 7 July, 2017</p>
+                    <p>Presented a keynote titled "Bridging Experiences with the Web" about how the browser can enable innovative experiences.</p>
+                </div>
+                <div class="card">
+                    <h3 class="cardTitle"><a href="https://www.lookforwardfashiontechfestival.com/">Look Forward Fashion Tech Festival</a></h3>
+                    <p><img src="images/flags/fr.gif" alt="FR"> Paris, France. 28 June, 2017</p>
+                    <p>Presented a VR collaboration with fashion designer Galina Mihaleva at <a href="https://www.lookforwardfashiontechfestival.com/">LOOK FORWARD FASHION TECH FESTIVAL</a>. Read a recap of the event <a href="https://medium.com/samsung-internet-dev/look-forward-fashion-tech-b47a946ebcd1">here</a>.</p>
+                </div>
             </div>
-            <div id="presentationssection">
-                <h2>#presentations</h2>
-            </div>    
-        </main>
+            <div id="portfoliosection" class="tile">
+                <h2>#portfolio</h2>
+                <p>I've been collaborating with different people across multiple disciplines in order to bring a set of experiences to life. Here are some of them. (See all of them <a href="portfolio.html">here</a>)</p>
+                <div class="well">
+                    <h3 class="wellTitle"><img src="images/logos/bubbleLogo.svg" alt="bubble" class="wellIcon"><a href="https://samsunginter.net/bubble">bubble</a></h3>
+                    <p>Get inside the bubble. A 360° image viewer for the web. No more annoying apps to view 360° pictures.</p>
+                </div>
+                <div class="well">
+                    <h3 class="wellTitle"><img src="images/logos/pwinter.svg" alt="pwa logo printer" class="wellIcon"><a href="https://diekus.net/logo-pwinter">Logo Pwinter</a></h3>
+                    <p>Get inside the bubble. A 360° image viewer for the web. No more annoying apps to view 360° pictures.</p>
+                </div>
+            </div>
+            <div id="freebiesection" class="tile">
+                <h2>#assets</h2>
+            </div>
+            <!-- <iframe src="https://vr.google.com/objects/cUT5C1Krx7g/embed" class="tileEmbed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""> -->
+            </iframe>
             
+        </div>
     </body>
 </html>
