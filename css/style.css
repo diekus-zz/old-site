@@ -112,7 +112,7 @@ h2{
 .social-links{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: .5;
     padding: .5em 0em .5em 0em;
     border-top: var(--accent-color) solid 2px;
