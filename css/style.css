@@ -124,3 +124,7 @@ h2{
 .audio-post{
     background-image: url('https://cdn-images-1.medium.com/max/900/1*GrFkeXbd1AebqAw73pNQhA.png');
 }
+
+.bubble-app{
+    background-image: url('/images/bgs/bg-bubble.jpg');
+}
