@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="full" viewBox="0 0 184.9 40.32">
+  <linearGradient id="a" x1="-.00459704" x2="7.63286" y1="1.00223" y2="1.00223" gradientTransform="rotate(-17.833 -.004597 1.002231)" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#0096FF"/>
+    <stop offset="1" stop-color="#FF0064"/>
+  </linearGradient>
+  <path fill="url(#a)" d="M16.425 4.32001H6.33746L0 40.32h17.2875L24.39 0h-7.2l-.765 4.32001zM11.3775 33.12H8.45245L12.24 11.52h2.9175l-3.78 21.6z"/>
+  <linearGradient id="b" x1="-1.38769" x2="11.378" y1="1.00223" y2="1.00223" gradientTransform="rotate(-28.373 -1.387686 1.002231)" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#0096FF"/>
+    <stop offset="1" stop-color="#FF0064"/>
+  </linearGradient>
+  <path fill="url(#b)" d="M25.3875 10.08h7.305L27.36 40.32h-7.3125l5.34-30.24zM27.1575 0h7.4175l-1.2675 7.20001H25.89L27.1575 0z"/>
+  <linearGradient id="c" x1="-1.28515" x2="6.6116" y1="1.0025" y2="1.0025" gradientTransform="rotate(-16.521 -1.285154 1.002499)" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#0096FF"/>
+    <stop offset="1" stop-color="#FF0064"/>
+  </linearGradient>
+  <path fill="url(#c)" d="M47.52 40.32H30.24l6.3375-35.99999h17.28L49.2975 30.24h-9.975l-.51 2.88h9.975l-1.2675 7.2zm-2.235-28.8h-2.6775l-2.025 11.52H43.26l2.025-11.52z"/>
+  <linearGradient id="d" x1="-2.13875" x2="5.74513" y1="1.00223" y2="1.00223" gradientTransform="rotate(-18.377 -2.138755 1.002231)" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#0096FF"/>
+    <stop offset="1" stop-color="#FF0064"/>
+  </linearGradient>
+  <path fill="url(#d)" d="M70.9725 21.6L67.68 40.32h-7.305L62.4 28.8h-2.655l-2.0325 11.52H50.4L57.51 0h7.305l-2.04 11.52h2.6775l1.26-7.19999h7.305L71.4825 18.72H61.515l-.51 2.88h9.9675z"/>
+  <linearGradient id="e" x1="-2.99236" x2="4.90438" y1="1.0025" y2="1.0025" gradientTransform="rotate(-16.521 -2.992358 1.002499)" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#0096FF"/>
+    <stop offset="1" stop-color="#FF0064"/>
+  </linearGradient>
+  <path fill="url(#e)" d="M76.8975 4.32001h7.305L79.1325 33.12h2.6625l5.07-28.79999h7.3125L87.84 40.32H70.56l6.3375-35.99999z"/>
+  <linearGradient id="f" x1="-3.84597" x2="4.05078" y1="1.0025" y2="1.0025" gradientTransform="rotate(-16.521 -3.845967 1.002499)" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#0096FF"/>
+    <stop offset="1" stop-color="#FF0064"/>
+  </linearGradient>
+  <path fill="url(#f)" d="M114.337 4.32001L112.313 15.84h-7.306l.758-4.32h-2.678l-1.26 7.2h9.975L108 40.32H90.72l2.025-11.52h7.305l-.7575 4.32h2.6775l1.26-7.2h-9.9751l3.8026-21.59999h17.2795z"/>
+  <linearGradient id="g" x1="-12.9579" x2="9.23126" y1="1.0125" y2="1.0125" gradientTransform="rotate(-9.298 -12.957891 1.012495)" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#0096FF"/>
+    <stop offset="1" stop-color="#FF0064"/>
+  </linearGradient>
+  <path fill="url(#g)" d="M112.027 33.12h7.305l-1.252 7.2h-7.305l1.252-7.2z"/>
+  <linearGradient id="h" x1="-5.12637" x2="2.77038" y1="1.0025" y2="1.0025" gradientTransform="rotate(-16.521 -5.126373 1.002499)" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#0096FF"/>
+    <stop offset="1" stop-color="#FF0064"/>
+  </linearGradient>
+  <path fill="url(#h)" d="M127.297 4.32001h17.28L138.24 40.32h-7.305l5.07-28.8h-2.663l-5.07 28.8h-7.312l6.337-35.99999z"/>
+  <linearGradient id="i" x1="-5.97997" x2="1.91677" y1="1.0025" y2="1.0025" gradientTransform="rotate(-16.521 -5.979969 1.002499)" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#0096FF"/>
+    <stop offset="1" stop-color="#FF0064"/>
+  </linearGradient>
+  <path fill="url(#i)" d="M158.4 40.32h-17.28l6.337-35.99999h17.28L160.177 30.24h-9.975l-.51 2.88h9.975l-1.267 7.2zm-2.235-28.8h-2.678l-2.025 11.52h2.678l2.025-11.52z"/>
+  <linearGradient id="j" x1="-6.83358" x2="1.05032" y1="1.00223" y2="1.00223" gradientTransform="rotate(-18.377 -6.833581 1.002231)" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#0096FF"/>
+    <stop offset="1" stop-color="#FF0064"/>
+  </linearGradient>
+  <path fill="url(#j)" d="M169.86 33.12h2.662l3.293-18.765h7.305l-4.56 25.965h-17.28L168.39 0h7.312l-.765 4.32001h9.96L183.615 11.52h-9.953l-3.802 21.6z"/>
+</svg>
