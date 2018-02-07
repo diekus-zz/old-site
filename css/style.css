@@ -11,6 +11,8 @@ body{
     font-family: 'Lato', sans-serif;
     color: var(--text-color);
     background-color: var(--base-color);
+    margin:0px;
+    padding:0px;
     padding-bottom: 3em;
 }
 
