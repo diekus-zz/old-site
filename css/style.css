@@ -12,6 +12,7 @@ body{
     color: var(--text-color);
     background-color: var(--base-color);
     padding: 1em;
+    padding-bottom: 3em;
 }
 
 h2 a:link, a:visited, a:visited{
