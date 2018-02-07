@@ -30,7 +30,10 @@
     background-image: url('/images/bgs/bg-angry-panda.jpg');   
 }
 
-
 .bg-word-drop{
     background-image: url('/images/bgs/bg-word-drop.jpg');   
+}
+
+.bg-cxs{
+    background-image: url('/images/bgs/bg-cxs.jpg');   
 }
