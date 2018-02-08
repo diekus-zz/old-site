@@ -158,3 +158,6 @@ h2{
     background-image: url('https://cdn-images-1.medium.com/max/540/1*YDsuVAM84-Tc7jyxN8o5Jw.png');
 }
 
+.bg-posts{
+    background-image: url('/images/bgs/posts.jpg');
+}
