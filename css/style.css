@@ -25,7 +25,7 @@ h2 a:link, a:visited, a:visited, a:hover{
     padding:0px;
 }
 
-/*h2 a:hover{
+h2 a:hover{
     background-color:  linear-gradient(60deg, var(--accent-second-color), var(--accent-color) 70%);
     background: -webkit-linear-gradient(60deg, var(--accent-second-color), var(--accent-color) 70%);
     -webkit-background-clip: text;
@@ -33,7 +33,7 @@ h2 a:link, a:visited, a:visited, a:hover{
     margin: 0px;
     padding:0px;
     transition: 1000ms;
-}*/
+}
 
 a:link, a:visited, a:visited{
     color: var(--accent-color);
