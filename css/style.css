@@ -16,6 +16,7 @@ body{
     padding-bottom: 3em;
 }
 
+/*
 h2 a:link, a:visited, a:visited, a:hover{
     background-color:  linear-gradient(60deg, var(--accent-color), var(--accent-second-color) 70%);
     background: -webkit-linear-gradient(60deg, var(--accent-color), var(--accent-second-color) 70%);
@@ -33,7 +34,7 @@ h2 a:hover{
     margin: 0px;
     padding:0px;
     transition: 1000ms;
-}
+}*/
 
 a:link, a:visited, a:visited{
     color: var(--accent-color);
