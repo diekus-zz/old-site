@@ -16,14 +16,15 @@ body{
     padding-bottom: 3em;
 }
 
-/*
-h2 a:link, a:visited, a:visited, a:hover{
+
+h2 a:link, a:visited, a:visited{
     background-color:  linear-gradient(60deg, var(--accent-color), var(--accent-second-color) 70%);
     background: -webkit-linear-gradient(60deg, var(--accent-color), var(--accent-second-color) 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0px;
     padding:0px;
+    transition: 1000ms;
 }
 
 h2 a:hover{
@@ -34,7 +35,7 @@ h2 a:hover{
     margin: 0px;
     padding:0px;
     transition: 1000ms;
-}*/
+}
 
 a:link, a:visited, a:visited{
     color: var(--accent-color);
@@ -160,4 +161,8 @@ h2{
 
 .bg-posts{
     background-image: url('/images/bgs/posts.jpg');
+}
+
+.bg-meetup{
+    background-image: url('https://secure.meetupstatic.com/photos/event/d/e/2/e/highres_468416878.jpeg');
 }
