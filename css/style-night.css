@@ -134,3 +134,7 @@ h2{
 .bg-posts{
     background-image: url('/images/bgs/posts.jpg');
 }
+
+.bg-meetup{
+    background-image: url('/images/bgs/bg-meetup.jpg');
+}
