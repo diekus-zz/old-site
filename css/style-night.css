@@ -138,3 +138,11 @@ h2{
 .bg-meetup{
     background-image: url('/images/bgs/bg-meetup.jpg');
 }
+
+.bg-gpc{
+    background-image: url('https://cdn-images-1.medium.com/max/1800/1*if3zmiIkd1QNs4RCWWjDeQ.png');
+}
+
+.bg-create{
+    background-image: url('/images/bgs/bg-create.jpg');
+}
