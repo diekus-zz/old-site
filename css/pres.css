@@ -1,14 +1,14 @@
 /*main specific secitons bg*/
 .pres-1{
-    background-image: url('https://pbs.twimg.com/media/DU53e_oVoAA_6FQ.jpg');   
+    background-image: url('/images/pres/legup0118.jpg');   
 }
 
 .pres-2{
-    background-image: url('https://secure.meetupstatic.com/photos/event/5/9/9/2/highres_466822930.jpeg');   
+    background-image: url('/images/pres/webxrparis1217.jpg');   
 }
 
 .pres-3{
-    background-image: url('https://pbs.twimg.com/media/DQRUc6zWsAAo-l-.jpg');
+    background-image: url('/images/pres/w3cworkshop.jpg');
 }
 
 .pres-4{
@@ -40,7 +40,7 @@
 }
 
 .pres-11{
-    background-image: url('https://pbs.twimg.com/media/DI5KkJzW4AA3U7k.jpg:large');
+    background-image: url('/images/pres/zolhof17.jpg');
 }
 
 .pres-12{
@@ -48,11 +48,11 @@
 }
 
 .pres-13{
-    background-image: url('https://pbs.twimg.com/media/DEHmonAWsAA3axl.jpg');
+    background-image: url('/images/pres/vruk17.jpg');
 }
 
 .pres-14{
-    background-image: url('https://cdn-images-1.medium.com/max/800/1*FiDFGtg1_vvWGyYY6Js0Lg.jpeg');
+    background-image: url('/images/pres/fashiontech17.jpg');
 }
 
 .pres-15{
@@ -145,4 +145,8 @@
 
 .pres-37{
     background-image: url('/images/pres/bg-create.jpg');
+}
+
+.pres-38{
+    background-image: url('/images/pres/webxr0418.jpg');
 }
