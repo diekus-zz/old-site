@@ -167,10 +167,20 @@ h2{
     background-image: url('https://cdn-images-1.medium.com/max/1800/1*if3zmiIkd1QNs4RCWWjDeQ.png');
 }
 
-.bg-create{
-    background-image: url('/images/bgs/bg-create.jpg');
+
+.up-1{
+    background-image: url('http://www.vrworldevent.com/images/2018/01/10/vr_home.jpg');
 }
 
-.bg-immersed{
-    background-image: url('/images/bgs/bg-immersed.jpg');
+.up-3{
+    background-image: url('https://wvrf18.worldvrforum.com/wp-content/uploads/2018/02/CransMontana_forme_home-600x565.png');
+    background-color: black;
+}
+
+.up-2{
+    background-image: url('https://gitnation.org/img/h_bg.png');
+}
+
+.up-4{
+    background-image: url('/images/pres/ieee5g18.jpg');
 }
