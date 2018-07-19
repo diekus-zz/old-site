@@ -1,52 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" baseProfile="full" viewBox="0 0 184.9 40.32">
-  <linearGradient id="a" x1="-.00459704" x2="7.63286" y1="1.00223" y2="1.00223" gradientTransform="rotate(-17.833 -.004597 1.002231)" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#0096FF"/>
-    <stop offset="1" stop-color="#FF0064"/>
-  </linearGradient>
-  <path fill="url(#a)" d="M16.425 4.32001H6.33746L0 40.32h17.2875L24.39 0h-7.2l-.765 4.32001zM11.3775 33.12H8.45245L12.24 11.52h2.9175l-3.78 21.6z"/>
-  <linearGradient id="b" x1="-1.38769" x2="11.378" y1="1.00223" y2="1.00223" gradientTransform="rotate(-28.373 -1.387686 1.002231)" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#0096FF"/>
-    <stop offset="1" stop-color="#FF0064"/>
-  </linearGradient>
-  <path fill="url(#b)" d="M25.3875 10.08h7.305L27.36 40.32h-7.3125l5.34-30.24zM27.1575 0h7.4175l-1.2675 7.20001H25.89L27.1575 0z"/>
-  <linearGradient id="c" x1="-1.28515" x2="6.6116" y1="1.0025" y2="1.0025" gradientTransform="rotate(-16.521 -1.285154 1.002499)" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#0096FF"/>
-    <stop offset="1" stop-color="#FF0064"/>
-  </linearGradient>
-  <path fill="url(#c)" d="M47.52 40.32H30.24l6.3375-35.99999h17.28L49.2975 30.24h-9.975l-.51 2.88h9.975l-1.2675 7.2zm-2.235-28.8h-2.6775l-2.025 11.52H43.26l2.025-11.52z"/>
-  <linearGradient id="d" x1="-2.13875" x2="5.74513" y1="1.00223" y2="1.00223" gradientTransform="rotate(-18.377 -2.138755 1.002231)" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#0096FF"/>
-    <stop offset="1" stop-color="#FF0064"/>
-  </linearGradient>
-  <path fill="url(#d)" d="M70.9725 21.6L67.68 40.32h-7.305L62.4 28.8h-2.655l-2.0325 11.52H50.4L57.51 0h7.305l-2.04 11.52h2.6775l1.26-7.19999h7.305L71.4825 18.72H61.515l-.51 2.88h9.9675z"/>
-  <linearGradient id="e" x1="-2.99236" x2="4.90438" y1="1.0025" y2="1.0025" gradientTransform="rotate(-16.521 -2.992358 1.002499)" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#0096FF"/>
-    <stop offset="1" stop-color="#FF0064"/>
-  </linearGradient>
-  <path fill="url(#e)" d="M76.8975 4.32001h7.305L79.1325 33.12h2.6625l5.07-28.79999h7.3125L87.84 40.32H70.56l6.3375-35.99999z"/>
-  <linearGradient id="f" x1="-3.84597" x2="4.05078" y1="1.0025" y2="1.0025" gradientTransform="rotate(-16.521 -3.845967 1.002499)" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#0096FF"/>
-    <stop offset="1" stop-color="#FF0064"/>
-  </linearGradient>
-  <path fill="url(#f)" d="M114.337 4.32001L112.313 15.84h-7.306l.758-4.32h-2.678l-1.26 7.2h9.975L108 40.32H90.72l2.025-11.52h7.305l-.7575 4.32h2.6775l1.26-7.2h-9.9751l3.8026-21.59999h17.2795z"/>
-  <linearGradient id="g" x1="-12.9579" x2="9.23126" y1="1.0125" y2="1.0125" gradientTransform="rotate(-9.298 -12.957891 1.012495)" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#0096FF"/>
-    <stop offset="1" stop-color="#FF0064"/>
-  </linearGradient>
-  <path fill="url(#g)" d="M112.027 33.12h7.305l-1.252 7.2h-7.305l1.252-7.2z"/>
-  <linearGradient id="h" x1="-5.12637" x2="2.77038" y1="1.0025" y2="1.0025" gradientTransform="rotate(-16.521 -5.126373 1.002499)" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#0096FF"/>
-    <stop offset="1" stop-color="#FF0064"/>
-  </linearGradient>
-  <path fill="url(#h)" d="M127.297 4.32001h17.28L138.24 40.32h-7.305l5.07-28.8h-2.663l-5.07 28.8h-7.312l6.337-35.99999z"/>
-  <linearGradient id="i" x1="-5.97997" x2="1.91677" y1="1.0025" y2="1.0025" gradientTransform="rotate(-16.521 -5.979969 1.002499)" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#0096FF"/>
-    <stop offset="1" stop-color="#FF0064"/>
-  </linearGradient>
-  <path fill="url(#i)" d="M158.4 40.32h-17.28l6.337-35.99999h17.28L160.177 30.24h-9.975l-.51 2.88h9.975l-1.267 7.2zm-2.235-28.8h-2.678l-2.025 11.52h2.678l2.025-11.52z"/>
-  <linearGradient id="j" x1="-6.83358" x2="1.05032" y1="1.00223" y2="1.00223" gradientTransform="rotate(-18.377 -6.833581 1.002231)" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#0096FF"/>
-    <stop offset="1" stop-color="#FF0064"/>
-  </linearGradient>
-  <path fill="url(#j)" d="M169.86 33.12h2.662l3.293-18.765h7.305l-4.56 25.965h-17.28L168.39 0h7.312l-.765 4.32001h9.96L183.615 11.52h-9.953l-3.802 21.6z"/>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="184.919" height="40.3285" viewBox="0 0 184.92 40.33" enable-background="new 0 0 184.92 40.33" xml:space="preserve">
+	<path fill="#FFFFFF" fill-opacity="1" fill-rule="evenodd" stroke-linejoin="round" d="M 16.4035,4.32091L 17.2036,2.38419e-006L 24.4052,2.38419e-006L 17.2837,40.3285L 0,40.3285L 6.32134,4.32091L 16.4035,4.32091 Z M 11.3624,33.127L 15.1232,11.5225L 12.2426,11.5225L 8.48179,33.127L 11.3624,33.127 Z M 25.3653,10.0822L 32.7269,10.0822L 27.3658,40.3285L 20.0842,40.3285L 25.3653,10.0822 Z M 27.1257,4.81606e-005L 34.5673,4.81606e-005L 33.287,7.20155L 25.9255,7.20155L 27.1257,4.81606e-005 Z M 47.53,40.3285L 30.2464,40.3285L 36.5677,4.32093L 53.8513,4.32093L 49.2904,30.2464L 39.3683,30.2464L 38.8082,33.127L 48.8103,33.127L 47.53,40.3285 Z M 45.2895,11.5225L 42.649,11.5225L 40.5686,23.0449L 43.2891,23.0449L 45.2895,11.5225 Z M 70.975,21.6046L 67.6943,40.3285L 60.4127,40.3285L 62.4132,28.8061L 59.7726,28.8061L 57.6922,40.3285L 50.4106,40.3285L 57.5321,3.67165e-005L 64.8137,3.67165e-005L 62.8132,11.5225L 65.4538,11.5225L 66.7341,4.32093L 74.0156,4.32093L 71.5351,18.724L 61.533,18.724L 61.0529,21.6046L 70.975,21.6046 Z M 76.8962,4.32093L 84.2578,4.32093L 79.1367,33.127L 81.7773,33.127L 86.8983,4.32093L 94.1799,4.32093L 87.8585,40.3285L 70.5749,40.3285L 76.8962,4.32093 Z M 114.344,4.32093L 112.344,15.8434L 105.062,15.8434L 105.782,11.5224L 103.142,11.5224L 101.861,18.724L 111.864,18.724L 108.023,40.3285L 90.7391,40.3285L 92.7396,28.8061L 100.101,28.8061L 99.3009,33.127L 102.022,33.127L 103.222,25.9255L 93.2997,25.9255L 97.0605,4.32093L 114.344,4.32093 Z M 112.024,33.127L 119.385,33.127L 118.105,40.3285L 110.823,40.3285L 112.024,33.127 Z M 127.307,4.32092L 144.591,4.32092L 138.269,40.3285L 130.988,40.3285L 136.029,11.5224L 133.388,11.5224L 128.267,40.3285L 120.986,40.3285L 127.307,4.32092 Z M 158.433,40.3285L 141.15,40.3285L 147.471,4.32092L 164.755,4.32092L 160.194,30.2464L 150.272,30.2464L 149.712,33.127L 159.714,33.127L 158.433,40.3285 Z M 156.193,11.5224L 153.552,11.5224L 151.472,23.0449L 154.193,23.0449L 156.193,11.5224 Z M 169.876,33.127L 172.596,33.127L 175.877,14.323L 183.159,14.323L 178.598,40.3285L 161.314,40.3285L 168.436,6.19888e-006L 175.717,6.19888e-006L 174.997,4.32092L 184.919,4.32092L 183.639,11.5224L 173.717,11.5224L 169.876,33.127 Z "/>
 </svg>

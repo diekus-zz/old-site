@@ -1,184 +1,108 @@
-/*main specific secitons bg*/
-.pres-1{
-    background-image: url('/images/pres/legup0118.jpg');   
+:root{
+    --base-color:#ffffff;
+    --base-color-opacity: rgba(255,255,255,.8);
+    --accent-color:#0096FF;
+    --accent-second-color:#FF0064;
+    --text-color:#3d3d3d;
+    --grid-gap: 2em;
+    --global-padding:1.5em;
 }
 
-.pres-2{
-    background-image: url('/images/pres/webxrparis1217.jpg');   
+html, body{
+    margin: 0px;
+    padding: 0px;
 }
 
-.pres-3{
-    background-image: url('/images/pres/w3cworkshop.jpg');
+.header-strip{
+    background-color: rgba(0, 149, 255, 0.9);
+    height: 3em;
+    position: fixed;
+    z-index: 200;
+    top:0px;
 }
 
-.pres-4{
-    background-image: url('/images/pres/talentedtalks.jpg');
+.main-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+    grid-gap: var(--grid-gap);
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: stretch;
 }
 
-.pres-5{
-    background-image: url('/images/pres/yglf.jpg');
+.main-content{
+    margin: 3em 0em 5em 0em;
 }
 
-.pres-6{
-    background-image: url('/images/pres/vrdays.jpg');
+.pres-card{
+    height: 12em;
+    border: #cecece solid 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #e5e5e5;
+    margin: calc(var(--global-padding)/2);
 }
 
-.pres-7{
-    background-image: url('/images/pres/mozfest17.jpg');
+.pres-card-title{
+    background-color: var(--base-color-opacity);
+    margin: 0px;
+    padding: calc(var(--global-padding)/2.5);
 }
 
-.pres-8{
-    background-image: url('/images/pres/sdc.jpg');
+.pres-info{
+    padding: .2em;
+    background-color: var(--base-color-opacity);
+    color: var(--text-color);
 }
 
-.pres-9{
-    background-image: url('/images/pres/jsmontly17.jpg');
+.card-bg{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    object-fit: cover;
+    z-index: 5;
 }
 
-.pres-10{
-    background-image: url('/images/pres/gtc17.jpg');
+.card-content{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    z-index: 20;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-.pres-11{
-    background-image: url('/images/pres/zolhof17.jpg');
+.img-card-bg{
+    object-fit: cover;
+    width: 100%;
+    height:100%;
 }
 
-.pres-12{
-    background-image: url('https://pbs.twimg.com/media/DH24SyTXgAAx58B.jpg');
+.social-links{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: .5;
+    padding: .5em 0em .5em 0em;
 }
 
-.pres-13{
-    background-image: url('/images/pres/vruk17.jpg');
+.main-logo{
+    height: 40%;
+    margin: .1em 1em .1em 1em;
 }
 
-.pres-14{
-    background-image: url('/images/pres/fashiontech17.jpg');
+.socialIcon{
+    padding: .1em .1em .1em .1em;
+    margin: .1em 1em .1em 1em;
+    height: .9em;
 }
 
-.pres-15{
-    background-image: url('https://pbs.twimg.com/media/C_s7y4HXcAAGuls.jpg');
-}
-
-.pres-16{
-    background-image: url('https://pbs.twimg.com/media/C_jhAwjXoAEMF_H.jpg');
-}
-
-.pres-17{
-    background-image: url('https://pbs.twimg.com/media/C9S3SPiXsAAnCLy.jpg');
-}
-
-.pres-18{
-    background-image: url('https://pbs.twimg.com/media/C_Xz98LXYAAE3zd.jpg');
-}
-
-.pres-19{
-    background-image: url('https://cdn-images-1.medium.com/max/800/1*5JXwKClCCwa0Im38rX-uIg.png');
-}
-
-.pres-20{
-    background-image: url('https://pbs.twimg.com/media/C6jGTFfV4AEdBqa.jpg:large');
-}
-
-.pres-21{
-    background-image: url('http://diekus.net/images/pres/madridjs.png');
-}
-
-.pres-22{
-    background-image: url('https://pbs.twimg.com/media/C52YQWOWMAQ0uHL.jpg');
-}
-
-.pres-23{
-    background-image: url('https://pbs.twimg.com/media/C4y7rcqWIAAfMmO.jpg:large');
-}
-
-.pres-24{
-    background-image: url('http://diekus.net/images/pres/rave1.jpg');
-}
-
-.pres-25{
-    background-image: url('http://diekus.net/images/pres/lwp16.jpg');
-}
-
-.pres-26{
-    background-image: url('https://cdn-images-1.medium.com/max/800/1*VGtSjZi9EhfT6Av-DnpSyA.jpeg');
-}
-
-.pres-27{
-    background-image: url('https://cdn-images-1.medium.com/max/800/1*OqdpAd-ePPlnH9cBdiXv8A.jpeg');
-}
-
-.pres-28{
-    background-image: url('http://diekus.net/images/pres/qomex.jpg');
-}
-
-.pres-29{
-    background-image: url('http://diekus.net/images/stereo3drend.png');
-}
-
-.pres-30{
-    background-image: url('http://diekus.net/images/pres/s3doodle.jpg');
-}
-
-.pres-31{
-    background-image: url('http://diekus.net/images/pres/beyond.jpg');
-}
-
-.pres-32{
-    background-image: url('http://diekus.net/images/pres/3dcs14.png');
-}
-
-.pres-33{
-    background-image: url('http://diekus.net/images/pres/mozfest13.jpg');
-}
-
-.pres-34{
-    background-image: url('http://diekus.net/images/pres/3dcs13.jpg');
-}
-
-.pres-35{
-    background-image: url('https://conferences.ece.ubc.ca/dmiaf2017/header.png');
-}
-
-.pres-36{
-    background-image: url('/images/pres/mwc182.jpg');
-}
-
-.pres-37{
-    background-image: url('/images/pres/bg-create.jpg');
-}
-
-.pres-38{
-    background-image: url('/images/pres/webxr0418.jpg');
-}
-
-.pres-39{
-    background-image: url('/images/pres/create18.png');
-}
-
-.pres-40{
-    background-image: url('/images/pres/unlvworkshop18.png');
-}
-
-.pres-41{
-    background-image: url('/images/pres/hhmeet18.png');
-}
-
-.pres-42{
-    background-image: url('/images/pres/immersed18.jpg');
-}
-
-.pres-43{
-    background-image: url('/images/pres/web5g18.jpg');
-}
-
-.pres-44{
-    background-image: url('/images/pres/vrw18.jpg');
-}
-
-.pres-45{
-    background-image: url('/images/pres/amsjs18.jpg');
-}
-
-.pres-46{
-    background-image: url('/images/pres/wvrf18.jpg');
+h1{
+    text-align: center;
 }
