@@ -26,7 +26,6 @@ a:hover{
     transition: 300ms;
 }
 
-
 footer{
     position: fixed;
     background-color: var(--base-color-opacity);
