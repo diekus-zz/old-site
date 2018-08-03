@@ -250,7 +250,7 @@ h2{
 
 /*for mobiles*/
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     .head{
         display: grid;
         grid-template-columns: 1fr;
