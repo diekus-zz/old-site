@@ -275,9 +275,10 @@ h2{
         min-height: 8em;
     }
 
-    @supports (filter: sepia(100%) hue-rotate(180deg) saturate(500%) brightness(65%)){
-      .hero-bg{
+   .hero-bg{
         filter: sepia(100%) hue-rotate(180deg) saturate(500%) brightness(65%);
+        -webkit-filter: sepia(100%) hue-rotate(180deg) saturate(500%) brightness(65%);
+        -ms-filter: sepia(100%) hue-rotate(180deg) saturate(500%) brightness(65%);
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
@@ -285,18 +286,7 @@ h2{
         z-index: 5;
         min-width: 10em;
       }
-    }
 
-    @supports (filter: sepia(100%) hue-rotate(180deg) saturate(500%) brightness(65%)){
-      .hero-bg{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        z-index: 5;
-        min-width: 10em;
-      }
-    }
   
 
     .hero-content{
