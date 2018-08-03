@@ -288,9 +288,9 @@ h2{
     }
 
    .hero-bg{
-        filter: sepia(100%) hue-rotate(180deg) saturate(500%) brightness(65%);
+        /*filter: sepia(100%) hue-rotate(180deg) saturate(500%) brightness(65%);
         -webkit-filter: sepia(100%) hue-rotate(180deg) saturate(500%) brightness(65%);
-        -ms-filter: sepia(100%) hue-rotate(180deg) saturate(500%) brightness(65%);
+        -ms-filter: sepia(100%) hue-rotate(180deg) saturate(500%) brightness(65%);*/
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
