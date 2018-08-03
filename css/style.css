@@ -94,7 +94,7 @@ footer{
     color:#ffffff;
 }
 
-h2{
+h1, h2{
     background-color:  linear-gradient(60deg, var(--accent-color), var(--accent-second-color) 70%);
     background: -webkit-linear-gradient(60deg, var(--accent-color), var(--accent-second-color) 70%);
     -webkit-background-clip: text;
