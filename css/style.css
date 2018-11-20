@@ -116,8 +116,8 @@ h1, h2{
 
 .events{
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-column-start: 3;
     grid-column-end: -1;
     grid-row-start: 1;
