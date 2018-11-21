@@ -320,3 +320,7 @@ h1, h2{
         padding: .5em;
     }
 }
+
+iframe{
+  padding:.3em;
+}
