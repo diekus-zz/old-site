@@ -1,3 +1,79 @@
+:root{
+  --primary-accent:#ffc800;
+  --text-color:#3d3d3d;
+  --subtle-ui-details:#eeeeee;
+  --element-padding:1.5em;
+  --base-color:#e0e0e0;
+  --icon-4-text:1em;
+}
+
 body{
-  background-color: #d8d8d8;
+  background-color: var(--base-color);
+  color:var(--text-color);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2{
+  padding: 0px;
+  margin: 0px;
+}
+
+main{
+  perspective: 200px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin:auto;
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-image{
+  max-width: 26vw;
+  margin-bottom: -4px;
+}
+
+.cont-hero-image{
+  z-index: 10;
+}
+
+iframe{
+  margin:0px 1em 0px 1em;
+}
+
+.mainmenu{
+  margin: auto;
+  max-width: 1200px;
+  display: block;
+}
+
+.more-cont{
+  border-top: var(--text-color) 2px solid;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card{
+  background-color: var(--subtle-ui-details);
+  padding: var(--element-padding);
+  margin:1em;
+}
+
+.projects{
+  
+}
+
+.icon-temp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
+
+.icon-demo{
+  width: 5em;
 }

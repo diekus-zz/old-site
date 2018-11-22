@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="154" height="154" viewBox="0 0 154.00 154.00" enable-background="new 0 0 154.00 154.00" xml:space="preserve">
+	<g>
+		<filter id="Filter_DropShadow1_" filterUnits="userSpaceOnUse">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+			<feOffset dx="-3.2729e-016" dy="1.78169" in="blur" result="offsetBlurredAlpha"/>
+			<feMerge>
+				<feMergeNode in="offsetBlurredAlpha"/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+		<path fill="#0096FF" fill-opacity="0.701961" stroke-width="7" stroke-linejoin="round" stroke="#0096FF" stroke-opacity="1" filter="url(#Filter_DropShadow1_)" d="M 88.5862,5.50281C 122.874,5.50281 146.173,28.801 146.173,63.0891L 146.173,86.4136L 146.128,88.9912C 144.988,121.864 122.008,144 88.5862,144L 65.7414,144C 31.4534,144 8.15509,121.451 8.15509,87.1632L 8.15509,62.3395C 8.15509,29.0753 30.0828,6.85974 62.6996,5.56274L 65.7414,5.50269L 88.5862,5.50281 Z "/>
+		<g>
+			<ellipse fill="none" stroke-width="3" stroke-linejoin="round" stroke="#FFFFFF" stroke-opacity="1" cx="87.662" cy="72.4742" rx="35.3724" ry="35.3724"/>
+			<path fill="none" stroke-width="3" stroke-linejoin="round" stroke="#FFFFFF" stroke-opacity="1" d="M 109.967,63.2611C 107.793,65.3229 102.688,63.469 98.5643,59.1201C 94.4408,54.7714 92.8608,49.5747 95.0352,47.5129C 97.2095,45.4512 102.315,47.3052 106.438,51.6539C 110.562,56.0028 112.142,61.1993 109.967,63.2611 Z "/>
+			<path fill="#FFFFFF" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 70.5863,87.5394C 67.1128,87.5394 64.297,90.3552 64.297,93.8287C 64.297,97.3021 67.1128,100.118 70.5863,100.118C 74.0598,100.118 76.8756,97.3021 76.8756,93.8287C 76.8756,90.3552 74.0598,87.5394 70.5863,87.5394 Z M 66.9037,112.4C 65.0604,102.869 61.6339,96.3909 58.7048,96.3909C 55.7758,96.3909 52.1293,102.869 50.1495,112.4L 34.7876,112.4C 32.858,112.4 31.2934,110.836 31.2934,108.906L 31.2934,80.0764C 31.2934,78.1465 32.858,76.5823 34.7876,76.5823L 82.1602,76.5823C 84.0896,76.5823 85.654,78.1465 85.654,80.0764L 85.654,108.906C 85.654,110.836 84.0896,112.4 82.1602,112.4L 66.9037,112.4 Z M 46.3607,87.5397C 42.8872,87.5397 40.0714,90.3555 40.0714,93.829C 40.0714,97.3025 42.8872,100.118 46.3607,100.118C 49.8342,100.118 52.65,97.3025 52.65,93.829C 52.65,90.3555 49.8342,87.5397 46.3607,87.5397 Z "/>
+		</g>
+	</g>
+</svg>

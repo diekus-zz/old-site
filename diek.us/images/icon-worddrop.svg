@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="154" height="154" viewBox="0 0 154.00 154.00" enable-background="new 0 0 154.00 154.00" xml:space="preserve">
+	<g>
+		<filter id="Filter_DropShadow1_" filterUnits="userSpaceOnUse">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+			<feOffset dx="-3.2729e-016" dy="1.78169" in="blur" result="offsetBlurredAlpha"/>
+			<feMerge>
+				<feMergeNode in="offsetBlurredAlpha"/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+		<path fill="#FFFFFF" fill-opacity="0.701961" stroke-width="7" stroke-linejoin="round" stroke="#FFFFFF" stroke-opacity="1" filter="url(#Filter_DropShadow1_)" d="M 88.4137,5.50281C 122.702,5.50281 146,28.801 146,63.0891L 146,86.4136L 145.956,88.9912C 144.816,121.864 121.835,144 88.4137,144L 65.5688,144C 31.2809,144 7.98257,121.451 7.98257,87.1632L 7.98257,62.3395C 7.98257,29.0753 29.9103,6.85974 62.5271,5.56274L 65.5688,5.50269L 88.4137,5.50281 Z "/>
+		<path fill="#D6D6F4" fill-opacity="0.803922" fill-rule="evenodd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke="#706CF5" stroke-opacity="1" d="M 76.9914,29.3662L 76.9914,29.3662C 88.3967,29.3662 97.6425,38.6119 97.6425,50.0172L 97.6425,76.8682C 97.6425,88.2734 88.3967,97.5193 76.9914,97.5193L 76.9914,97.5193C 65.5861,97.5193 56.3404,88.2734 56.3404,76.8682L 56.3404,50.0172C 56.3404,38.6119 65.5861,29.3662 76.9914,29.3662 Z M 105.649,63.0339L 105.649,78.3313C 105.649,94.1583 92.8185,106.989 76.9914,106.989C 61.1642,106.989 48.3339,94.1583 48.3339,78.3313L 48.3339,63.0582M 76.9914,110.634L 76.9914,115.997M 61.1695,120.137L 92.8133,120.137"/>
+	</g>
+</svg>

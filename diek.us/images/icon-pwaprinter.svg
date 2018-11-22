@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="154" height="154" viewBox="0 0 154.00 154.00" enable-background="new 0 0 154.00 154.00" xml:space="preserve">
+	<g>
+		<filter id="Filter_DropShadow1_" filterUnits="userSpaceOnUse">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+			<feOffset dx="-3.2729e-016" dy="1.78169" in="blur" result="offsetBlurredAlpha"/>
+			<feMerge>
+				<feMergeNode in="offsetBlurredAlpha"/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+		<path fill="#B6B6B6" fill-opacity="0.701961" stroke-width="7" stroke-linejoin="round" stroke="#B6B6B6" stroke-opacity="1" filter="url(#Filter_DropShadow1_)" d="M 88,5.50281C 122.288,5.50281 145.586,28.801 145.586,63.0891L 145.586,86.4136L 145.542,88.9912C 144.402,121.864 121.422,144 88,144L 65.1551,144C 30.8672,144 7.56885,121.451 7.56885,87.1632L 7.56885,62.3395C 7.56885,29.0753 29.4966,6.85974 62.1134,5.56274L 65.1551,5.50269L 88,5.50281 Z "/>
+		<g>
+			<path fill="#B6B6B6" fill-opacity="1" stroke-width="4" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" d="M 44.0659,49.7708L 109.089,49.7708C 113.507,49.7708 117.089,53.3524 117.089,57.7708L 117.089,82.2823C 117.089,86.7007 113.507,90.2823 109.089,90.2823L 44.0659,90.2823C 39.6476,90.2823 36.0659,86.7007 36.0659,82.2823L 36.0659,57.7708C 36.0659,53.3524 39.6476,49.7708 44.0659,49.7708 Z "/>
+			<rect x="52.1243" y="71.4591" fill="#FFFFFF" fill-opacity="1" stroke-width="4" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" width="48.9062" height="45.8309"/>
+			<path fill="#3D3D3D" fill-opacity="1" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" d="M 67.6063,94.4432L 72.6051,96.42L 72.6051,102.128L 80.188,99.4187L 88.755,102.807L 62.9921,112.51L 62.9921,105.354L 67.6063,103.696L 67.6063,94.4432 Z "/>
+			<line fill="none" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" x1="79.0527" y1="76.7791" x2="90.1611" y2="76.7791"/>
+			<path fill="#7F7F7F" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 64.3983,88.3391L 90.1611,98.7266L 90.1611,91.84L 73.5125,84.7343L 90.1611,79.6814L 90.1611,76.7791L 79.0527,76.7791L 79.3284,76.8696L 64.3983,81.5439L 64.3983,88.3391 Z "/>
+			<rect x="49.568" y="71.4913" fill="#5E5E5E" fill-opacity="1" stroke-width="4" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" width="54.0153" height="5.28772"/>
+			<rect x="52.0817" y="32.2135" fill="#FFFFFF" fill-opacity="1" stroke-width="4" stroke-linejoin="round" stroke="#3D3D3D" stroke-opacity="1" width="48.9062" height="17.5571"/>
+			<path fill="#00C800" fill-opacity="1" stroke-width="10" stroke-linejoin="round" stroke="#64FF00" stroke-opacity="1" d="M 48.258,58.927C 48.8847,58.927 49.3928,59.4351 49.3928,60.0618C 49.3928,60.6886 48.8847,61.1967 48.258,61.1967C 47.6312,61.1967 47.1231,60.6886 47.1231,60.0618C 47.1231,59.4351 47.6312,58.927 48.258,58.927 Z "/>
+		</g>
+	</g>
+</svg>

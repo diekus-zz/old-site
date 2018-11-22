@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="154" height="154" viewBox="0 0 154.00 154.00" enable-background="new 0 0 154.00 154.00" xml:space="preserve">
+	<g>
+		<filter id="Filter_DropShadow1_" filterUnits="userSpaceOnUse">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+			<feOffset dx="-3.2729e-016" dy="1.78169" in="blur" result="offsetBlurredAlpha"/>
+			<feMerge>
+				<feMergeNode in="offsetBlurredAlpha"/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+		<path fill="#2196F3" fill-opacity="0.701961" stroke-width="7" stroke-linejoin="round" stroke="#2196F3" stroke-opacity="1" filter="url(#Filter_DropShadow1_)" d="M 88.4312,6.00006C 122.719,6.00006 146.017,29.2983 146.017,63.5864L 146.017,86.9109L 145.973,89.4885C 144.833,122.361 121.853,144.497 88.4312,144.497L 65.5863,144.497C 31.2983,144.497 8,121.948 8,87.6604L 8,62.8367C 8,29.5726 29.9277,7.35706 62.5445,6.06006L 65.5863,6L 88.4312,6.00006 Z "/>
+		<g>
+			<ellipse fill="#F44336" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" cx="77.0088" cy="75.2488" rx="51.7679" ry="51.7679"/>
+			<ellipse fill="#B71C1C" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" cx="77.0089" cy="75.2486" rx="41.2504" ry="41.2503"/>
+			<path fill="#120303" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 77.0085,69.7849C 80.026,69.7849 82.4721,72.231 82.4721,75.2485C 82.4721,78.2659 80.0259,80.7121 77.0085,80.7121C 73.991,80.7121 71.5448,78.2659 71.5448,75.2485C 71.5448,72.231 73.9909,69.7849 77.0085,69.7849 Z "/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 87.5917,92.0061L 93.107,92.0062L 102.351,117.842L 96.8362,117.842L 87.5917,92.0061 Z "/>
+			<path fill="#FFFFFF" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 106.68,91.4872L 112.386,91.4871L 104.49,114.257L 101.352,105.923L 106.68,91.4872 Z "/>
+			<path fill="#FFFFFF" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 118.856,105.247L 125.126,105.247L 132.979,117.788L 126.709,117.788L 118.856,105.247 Z "/>
+			<path fill="#FFFFFF" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 127.124,104.27L 129.675,108.178C 129.675,108.178 133.257,106.231 133.257,102.642C 133.257,97.0002 131.48,91.6235 123.053,91.6237C 114.626,91.6237 113.5,94.3883 113.5,98.2998C 113.5,102.211 113.5,117.787 113.5,117.787L 118.553,117.787L 118.553,97.6472C 118.552,97.6473 117.986,96.2372 123.813,96.2373C 129.64,96.2375 128.752,103.294 127.124,104.27 Z "/>
+		</g>
+	</g>
+</svg>

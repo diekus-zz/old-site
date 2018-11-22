@@ -7,13 +7,8 @@ class SpatialMenu extends HTMLElement {
       `<template id="spatial-menu-shell">
         <style>
           :host{
-            --primary-accent:#ffc800;
-            --text-color:#3d3d3d;
-            --subtle-ui-details:#eeeeee5e;
-            --element-padding:1.5em;
-            --base-color:#ffffff;
-            --icon-4-text:1em;
-            --perspective-value:450px;
+            
+            --perspective-value:200px;
 
             color: var(--text-color);
             background-color:var(--base-color);
@@ -28,16 +23,21 @@ class SpatialMenu extends HTMLElement {
             background-color: var(--base-color-a);
             display: grid;
             grid-template-columns: 1fr 1fr;
-            transform: rotate3d(1, 0, 0, -89deg);
             transform-origin: top center;
             box-shadow:0px 5px 10px 2px var(--subtle-ui-details);
             padding: var(--element-padding);
             border-radius: .5em;
             width: 30em;
             transition: transform .5s;
+            opacity:1;
+            transform: rotate3d(1, 0, 0, 0deg);
+            position:absolute;
+            transform: rotate3d(1, 0, 0, 90deg);
+            opacity:0;
           }
 
           .menu-open{
+            opacity:1;
             transform: rotate3d(1, 0, 0, 0deg);
             transition: transform .5s;
           }
@@ -56,6 +56,9 @@ class SpatialMenu extends HTMLElement {
           .menu-header{
             cursor: pointer;
             margin: 10px 10px;
+            display:flex;
+            flex-direction:row;
+            align-items:center;
           }
 
           .menu-title{
