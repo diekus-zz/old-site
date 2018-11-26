@@ -1,30 +1,68 @@
 :root{
-  --primary-accent:#ffc800;
+  --primary-accent:#00568A;
+  --secondary-accent:#0085D4;
   --text-color:#3d3d3d;
   --subtle-ui-details:#eeeeee;
   --element-padding:1.5em;
-  --base-color:#e0e0e0;
+  --base-color:#fff;
   --icon-4-text:1em;
+  --corner-roundness:25px;
+  --max-width:1220px;
 }
 
 body{
   background-color: var(--base-color);
   color:var(--text-color);
   font-family: 'Montserrat', sans-serif;
-}
 
-h1, h2{
-  padding: 0px;
-  margin: 0px;
 }
 
 main{
   perspective: 200px;
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: var(--max-width);
   margin:auto;
 }
+
+h2{
+  color: var(--primary-accent);
+}
+
+a:link, a:visited, a:active{
+  color: var(--secondary-accent);
+}
+
+a:hover{
+  text-decoration: underline wavy var(--secondary-accent);
+  color: var(--primary-accent);
+}
+
+/*HEADER*/
+.site-header{
+  display: flex;
+  flex-direction: row;
+  max-width: var(--max-width);
+  margin:1em auto 2em auto;
+}
+
+.logo{
+  max-width: 5em;
+  max-height: 2em;
+}
+
+.social-icon{
+  width: 1.3em;
+}
+
+.social-links{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* HERO SECTION*/
 
 .hero{
   display: flex;
@@ -36,21 +74,29 @@ main{
   margin-bottom: -4px;
 }
 
-.cont-hero-image{
-  z-index: 10;
-}
 
 iframe{
-  margin:0px 1em 0px 1em;
+  
 }
+
+.rounded-iframe{
+  border-radius: var(--corner-roundness);
+  width: 100%;
+  overflow: hidden;
+  margin:0px 1em 1em 1em;
+}
+
+/*MAIN MENU NAV*/
 
 .mainmenu{
   margin: auto;
-  max-width: 1200px;
+  max-width: var(--max-width);
   display: block;
 }
 
-.more-cont{
+/*CONTENT*/
+
+.main-cont{
   border-top: var(--text-color) 2px solid;
   display: flex;
   flex-direction: row;
@@ -61,19 +107,42 @@ iframe{
   background-color: var(--subtle-ui-details);
   padding: var(--element-padding);
   margin:1em;
+  border-radius: var(--corner-roundness);
 }
 
 .projects{
-  
-}
-
-.icon-temp{
+  width: 22vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1em;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.icon-demo{
+.posts{
+  padding: calc(var(--element-padding) * 1.5);
+}
+
+.article-image{
+  object-fit:cover;
   width: 5em;
+  height: 5em;
+}
+
+/*ICON*/      
+.icon-demo{
+  width: 4em;
+}
+
+/*FOOTER*/
+footer{
+  text-align: center;
+  margin: 3em auto 3em auto;
+  max-width: var(--max-width);
+}
+
+/*MORE LINK SECTION*/
+.more-links{
+  padding:3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
