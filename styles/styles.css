@@ -173,6 +173,10 @@ footer{
 /*MOBILE QUERIES!*/
 @media (max-width: 575px){
 
+  :root{
+    --element-padding:.5em;
+  }
+
   .main-cont{
     flex-direction: column;
   }
