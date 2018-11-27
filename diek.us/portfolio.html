@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="styles/styles.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="scripts/pres-entry.js"></script>
+  <title>diek.us Portfolio</title>
+  <link href="styles/styles.css" rel="stylesheet">
+  <script src="https://unpkg.com/@webcomponents/custom-elements"></script>
+  <script src="scripts/icon-item.js"></script>
+  <script src="scripts/post-entry.js"></script>
+
+  <link href="/images/favivo.png" rel="icon">
+  <meta name="theme-color" content="#0085D4">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+      <a href="index.html"><img class="logo" alt="diek.us" src="images/dks-logo.svg"></a>
+      <div class="social-links">
+        <a href="https://twitter.com/diekus"><img class="social-icon" alt="Twitter" src="images/icon-twitter.svg"></a>
+        <a href="https://www.instagram.com/d13kus/"><img class="social-icon" alt="Instagram" src="images/icon-instagram.svg"></a>
+        <a href="https://github.com/diekus/"><img class="social-icon" alt="GitHub" src="images/icon-github.svg"></a>
+        <a href="https://medium.com/@diekus"><img class="social-icon" alt="Medium" src="images/icon-medium.svg"></a>
+        <a href="https://www.linkedin.com/in/diekus/"><img class="social-icon" alt="LinkedIn" src="images/icon-linkedin.svg"></a>
+        <a href="callto://luis.diego.gz/"><img class="social-icon" alt="Skype" src="images/icon-skype.svg"></a>
+      </div>
+  </header>
+
+  <main class="main-pres">
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-bubble.jpg"></span>
+      <span slot="pres-title">bubble</span>
+      <span slot="pres-event"><a href="https://bubble.pictures">test your immersive images on this PWA</a></span>
+      <span slot="pres-place">360° image viewer</span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-ava.jpg"></span>
+      <span slot="pres-title">Ava</span>
+      <span slot="pres-event"><a href="https://samsunginter.net/ava">experience a cartoonish 4000 year old north of Scotland</a></span>
+      <span slot="pres-place">WebVR Archaeological experience in collaboration with <a href="https://achavanichbeakerburial.wordpress.com/">Achavanich Beaker Burial project</a></span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-pwacman.jpg"></span>
+      <span slot="pres-title">PWAc-Man</span>
+      <span slot="pres-event"><a href="http://samsunginter.net/pwacman/">get a gamepad and try out the demo</a></span>
+      <span slot="pres-place">WebVR/Gamepad enabled demo</span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-vrtranquilitie.jpg"></span>
+      <span slot="pres-title">VR Tranquilitie</span>
+      <span slot="pres-event"><a href="https://medium.com/samsung-internet-dev/look-forward-fashion-tech-b47a946ebcd1">read more about this collaboration</a></span>
+      <span slot="pres-place">Fashion/Tech collaboration with Galina Mihaleva</span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-loti.jpg"></span>
+      <span slot="pres-title">Lord of the Inputs</span>
+      <span slot="pres-event"><a href="http://samsunginter.net/loti">see all possible variations of the input HTML tag</a></span>
+      <span slot="pres-place">Guide to HTML input element's different forms</span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-pwinter.jpg"></span>
+      <span slot="pres-title">PWA Logo Printer</span>
+      <span slot="pres-event"><a href="https://diekus.com/logo-pwinter/">print your own version of the PWA logo!</a></span>
+      <span slot="pres-place">Customizable vector PWA logo file generator </span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-angry-panda.jpg"></span>
+      <span slot="pres-title">Angry Panda</span>
+      <span slot="pres-event"><a href="https://medium.com/samsung-internet-dev/gamepad-api-to-control-parts-of-an-svg-3f76892044f6">read how to use a gamepad to move parts of an SVG image</a></span>
+      <span slot="pres-place">Using Gamepad API to control parts of an SVG </span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-word-drop.jpg"></span>
+      <span slot="pres-title">Word Drop</span>
+      <span slot="pres-event"><a href="http://samsunginter.net/word-drop">try out a mix of WebVR, Speech Recognition and Physics</a></span>
+      <span slot="pres-place">A SpeechRecognition interface demo </span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-cxs.jpg"></span>
+      <span slot="pres-title">Chromium by Samsung</span>
+      <span slot="pres-event"><a href="http://samsung.github.io/Chromium/">check out Samsung's contributions to the Chromium project</a></span>
+      <span slot="pres-place">Landing page design</span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-audio.png"></span>
+      <span slot="pres-title">Web Audio on VR</span>
+      <span slot="pres-event"><a href="https://samsunginter.net/mobile-web-audio/">test different Web Audio sources in different types of browsers</a></span>
+      <span slot="pres-place">WebAudio demo on VR</span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-hungrypandas.png"></span>
+      <span slot="pres-title">Hungry Pandas</span>
+      <span slot="pres-event"><a href="https://medium.com/samsung-internet-dev/webvr-connecting-people-pandas-and-you-f867cc6829c6">try out a multiplayer hungry panda game</a></span>
+      <span slot="pres-place">Networked WebVR demo</span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-pwalogo.jpeg"></span>
+      <span slot="pres-title">PWA Logo</span>
+      <span slot="pres-event"><a href="https://medium.com/samsung-internet-dev/we-now-have-a-community-approved-progressive-web-apps-logo-823f212f57c9">read the PWA logo creation story</a></span>
+      <span slot="pres-place">Logo design for PWA technology</span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/pres/s3doodle.jpg"></span>
+      <span slot="pres-title">S3Doodle</span>
+      <span slot="pres-event"><a href="https://github.com/diekus/canv.3D">see the code for an experiment that allowed to draw in space using HTML canvas</a></span>
+      <span slot="pres-place">Stereoscopic HTML5 Canvas library demo</span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/pandarena.PNG"></span>
+      <span slot="pres-title">PandARena</span>
+      <span slot="pres-event"><a href="https://docs.google.com/presentation/d/1CWld6MeoNccZ3YXAR1xrrZerDAaNZkgrJyaT9nj4xDU/present#slide=id.g380c0d8a85_1_1">Demo with Peter O'Shaughnessy to create a web based dancing AR panda</a></span>
+      <span slot="pres-place">Presentation to create AR dancing panda</span>
+    </pres-entry>
+    <pres-entry>
+      <span slot="pres-image"><img class="pres-card-image" src="images/portfolio/bg-airhornvr.jpg"></span>
+      <span slot="pres-title">Airhorn VR</span>
+      <span slot="pres-event"><a href="https://samsunginter.net/airhorn1">Try the first ever WebVR PWA</a></span>
+      <span slot="pres-place">A WebVR version of the PWA airhorn.</span>
+    </pres-entry>
+  </main>
+
+  <footer>
+    <a href="https://diek.us">diekus 2018</a>
+  </footer>
+  
+</body>
+</html>
