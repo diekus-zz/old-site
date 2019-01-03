@@ -75,7 +75,7 @@ a:hover{
 }
 
 .hero-image{
-  max-width: 26vw;
+  max-width: 30em;
   margin-bottom: -3.3em;
 }
 
@@ -205,6 +205,6 @@ footer{
 /*MOBILE QUERIES!*/
 @media (max-width: 800px){
   .hero-image{
-    max-width: 0vw;
+    max-width: 0em;
   }
 }
