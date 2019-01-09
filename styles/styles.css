@@ -116,7 +116,7 @@ iframe{
 }
 
 .projects{
-  width: 22vw;
+  width: 22em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
