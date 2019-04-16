@@ -1,0 +1,134 @@
+:root{
+    --d-teal:#005065;
+    --m-teal: #008EB2;
+    --l-teal: #00C4E0;
+    --d-orange: #E04600;
+    --gold: #EEBA00;
+    --brown: #743C00;
+    --cream: #FFF1DE;
+    --d-grey: #3D3D3D;
+    --white: #FFFFFF99;
+    --max-width: 60em;
+}
+
+html{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    background-color: var(--l-teal);
+    color: white;
+}
+
+body{
+    margin: auto;
+}
+
+header{
+    padding: 1.5em;
+    background-color: var(--d-teal);
+    z-index: 20;
+}
+
+.header-content{
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.page-title{
+    display: none;
+}
+
+.logo{
+    height: 50px;
+    z-index: 5;
+}
+
+.featured-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.container{
+    margin: .5em;
+    padding: 1em;
+    z-index: 5;
+}
+
+.bg-center{
+    background-image: url("../images/bg.jpg");
+    margin: -2em -.5em -.5em -.5em;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    object-fit: contain;
+    z-index: 1;
+    filter: blur(15px);
+}
+
+.profile-container::before{
+    content: "";
+    border: var(--d-teal) solid 10px;
+}
+
+.profile-container{
+    background-color: var(--d-teal);
+    margin:2em;
+    padding:1em;
+    border: var(--l-teal) solid 2px;
+    outline: 1em solid var(--d-teal);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 10px 15px var(--d-grey);
+}
+
+.title-header{
+    font-size: 1.5em;
+    margin: 1em 0em .5em 0em;
+}
+
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    margin: -2em auto auto auto;
+    border-radius: 50%;
+    z-index: 10;
+    overflow: visible;
+}
+
+.profile-text{
+    line-height: 1.2em;
+}
+
+.whatup-container{
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 1;
+}
+
+.general-content{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1em 2em 2em 5em;
+}
+
+.latest-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.latest-items{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    color: var(--d-teal);
+    max-width: var(--max-width);
+    margin: auto;
+    text-align: center;
+}

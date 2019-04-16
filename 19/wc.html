@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body bgcolor="blue">
+    <style>
+        .dks-item{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+        .item-picture{
+            width: 100%;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: -1; 
+        }
+        .item-title{
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: -1; 
+        }
+        .item-descrip{
+            grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: -1; 
+        }
+    </style>
+    <div class="dks-item">
+        <img src="images/diekus.jpg" class="item-picture">
+        <h3 class="item-title">This is my article title lenght</h3>
+        <p class="item-descrip">This is my small contribution to the article summary</p>
+    </div>
+    
+</body>
+</html>
